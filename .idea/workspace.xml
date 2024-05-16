@@ -4,10 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3887827-1aea-4217-9804-f1b6e93dfe90" name="Changes" comment="Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/utils/FileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/textData/text.txt" afterDir="false" />
+    <list default="true" id="d3887827-1aea-4217-9804-f1b6e93dfe90" name="Changes" comment="Commit 2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/composite/Leaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/composite/TextComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/composite/TextComposite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/composite/TextType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/customParser/CustomParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/customParser/DocumentParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/customParser/ParagraphParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/customParser/SentenceParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/customParser/WordParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/model/AbstractTextComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/model/CharacterComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/model/Document.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/model/Paragraph.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/model/Sentence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/model/Word.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/parser/DocumentParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/parser/ParagraphParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/parser/Parser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/parser/SentenceParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/parser/WordParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/utils/FileReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/util/TextReader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +36,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -25,9 +45,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2fS5nqCLJY2KOB4OmRFFnwMMfJo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -44,9 +64,32 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mikalai.texteditor.main.Main12" />
+      <module name="Task3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mikalai.texteditor.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main12" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -55,7 +98,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713781807194</updated>
-      <workItem from="1713781808190" duration="4434000" />
+      <workItem from="1713781808190" duration="7775000" />
+      <workItem from="1714728503543" duration="3172000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <option name="closed" value="true" />
@@ -65,7 +109,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713799063743</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit 2">
+      <option name="closed" value="true" />
+      <created>1713800474128</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713800474128</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,6 +125,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit" />
+    <MESSAGE value="Commit 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 2" />
   </component>
 </project>
