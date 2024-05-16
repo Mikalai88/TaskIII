@@ -18,6 +18,5 @@ public class TextReader {
     return contentBuilder.toString();
   }
 
-  // Custom exception
 }
 
