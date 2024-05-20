@@ -3,7 +3,7 @@ package com.mikalai.texteditor.composite;
 import java.util.ArrayList;
 import java.util.List;
 
-public class TextComposite implements TextComponent {
+public class TextComposite implements CompositeTextComponent {
   private List<TextComponent> components = new ArrayList<>();
   private TextType type;
 
@@ -35,4 +35,17 @@ public class TextComposite implements TextComponent {
   public TextType getType() {
     return type;
   }
+
+  @Override
+  public String toString() {
+    return "TextComposite{" +
+            "components=" + components +
+            ", type=" + type +
+            '}';
+  }
 }
+
+
+
+// тустринг должен быть чтобы все собирал как у Анастасии
+//

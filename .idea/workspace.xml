@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3887827-1aea-4217-9804-f1b6e93dfe90" name="Changes" comment="Commit 3" />
+    <list default="true" id="d3887827-1aea-4217-9804-f1b6e93dfe90" name="Changes" comment="Commit 3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/composite/CompositeTextComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/exception/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/reader/TextReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/service/TextAnalysisService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/service/TextAnalysisServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/composite/Leaf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/composite/SymbolLeaf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/composite/TextComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/composite/TextComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/composite/TextComposite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/composite/TextComposite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/customParser/CustomParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/parser/CustomParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/customParser/DocumentParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/parser/DocumentParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/customParser/ParagraphParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/parser/ParagraphParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/customParser/SentenceParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/parser/SentenceParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/customParser/WordParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/parser/WordParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/util/TextReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mikalai/texteditor/reader/TextReaderImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +63,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.mikalai.texteditor.reader" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mikalai.texteditor.main.Main12" />
@@ -76,7 +97,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713781807194</updated>
       <workItem from="1713781808190" duration="7775000" />
-      <workItem from="1714728503543" duration="3771000" />
+      <workItem from="1714728503543" duration="10556000" />
     </task>
     <task id="LOCAL-00001" summary="Commit">
       <option name="closed" value="true" />
@@ -102,7 +123,31 @@
       <option name="project" value="LOCAL" />
       <updated>1715871881542</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Commit 3">
+      <option name="closed" value="true" />
+      <created>1715872192861</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715872192861</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Commit 3">
+      <option name="closed" value="true" />
+      <created>1715872203428</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715872203428</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Commit 3">
+      <option name="closed" value="true" />
+      <created>1715872209673</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715872209673</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
